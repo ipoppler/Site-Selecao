@@ -1,5 +1,81 @@
 body{
-  background-color: #bbd1ea;  
+  background-color: #bbd1ea;
+  font-family: eastman;  
+}
+@font-face {
+    font-family: 'eastman';
+    src: url('../Fontes/eastman/EastmanRomanTrial-Bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'bison';
+    src: url('../Fontes/bison_2/Bison-Bold(PersonalUse).ttf') format('truetype');
+}
+@font-face {
+    font-family: 'maximum';
+    src: url('../Fontes/maximum_voltage/Maximum Voltage.otf') format('truetype');
+}
+p{
+    font-size: 18px;
+    font-family: eastman;
+}
+header{
+    position: relative;
+}
+.conteudo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.conteudo h1{
+    font-family: maximum;
+    font-size: 75px;
+    color: rgb(159, 175, 238);
+    margin: 0;
+    -webkit-text-stroke: 2px #0c2a57;
+    text-shadow: 4px 4px 8px #181d52;
+}
+
+.conteudo h2{
+    font-family: bison;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-shadow:
+    0 0 10px rgba(86, 231, 94, 0.5),
+    0 0 20px rgba(60, 201, 71, 0.3);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s
+}
+
+.menu button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: eastman;
+    font-size: 13px;
+    background-color: #e7e09f;
+}
+.menu a:hover{
+    color: #317935;
 }
 .fundo{
   width: 100%;
@@ -14,13 +90,51 @@ body{
     top: 5px;
     left: 10px;
 }
-@font-face {
-    font-family: h1fonte;
+h2{
+    font-family: bison;
+    font-size: 38px;
+    color: #002776;
+    margin-bottom: 15px;
+    text-shadow:
+    0 0 10px rgba(0,39,118,0.5),
+    0 0 20px rgba(255,255,255,0.3);
+    text-align: center;
 }
-header h1{
-    height: auto;
-    position: absolute;
-    top: 5px;
-    left: 220px;
-    font-family: "h1fonte", sans-serif;
+section p{
+    text-align: center;
+    font-size: 18px;
+    font-style: eastman;
+    color: #306e33;
+    margin-bottom: 25px;
+}
+
+table{
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border: 4px solid #002776;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #002776;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #002776;
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #002776;
+    padding: 12px;
+}
+
+
+td:hover{
+    background-color: #f0e6a4;
+    transition: 0.3s;
+    cursor: pointer;
 }
