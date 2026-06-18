@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'alte';
+    src: url('../Fontes/alte_haas_grotesk/AlteHaasGroteskBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'true';
+    src: url('../Fontes/academy/AcademyFilled3D.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'truetf';
+    src: url('../Fontes/academy/Academy.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'varsity';
+    src: url('../Fontes/varsity_team/VarsityTeam-Bold.otf') format('truetype');
+}
+header h1,
+header h2,
+header p{
+    margin: 0;
+}
+header{
+    text-align: center;
+    background: linear-gradient(135deg, #009739, #006b2d);
+    color: white;
+    padding: 40px 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 80px;
+    color: #ffdf00;
+    text-shadow: 4px 4px 0px #002776;
+    margin-bottom: 10px;
+    font-family: truetf;
+}
+p{
+    font-family: alte;
+}
+h2{
+    font-family: varsity;
+}
+header > p:first-of-type{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: alte;
+}
+
+.anos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.anos h1{
+    font-size: 35px;
+    font-family: truetf;
+    color: #ffdf00;
+    background-color: rgba(0, 39, 118, 0.8);
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+header h2{
+    margin-top: 10px;
+}
+
+header p:last-child{
+    margin-top: -10px;
+}
+.anos h1:hover{
+    transform: translateY(-5px);
+}
+
+header h2{
+    font-size: 28px;
+    color: #ffdf00;
+    margin-top: 15px;
+}
+
+header p:last-of-type{
+    font-size: 22px;
+    color: #ffdf00;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza o conjunto */
+    gap: 20px;
+}
+
+.titulo img{
+    width: 50px;
+    height: auto;
+}
+
+.titulo h1{
+    margin: 0;
+}
