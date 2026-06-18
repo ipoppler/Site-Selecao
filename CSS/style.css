@@ -103,7 +103,7 @@ h2{
 section p{
     text-align: center;
     font-size: 18px;
-    font-style: eastman;
+    font-family: eastman;
     color: #306e33;
     margin-bottom: 25px;
 }
@@ -129,6 +129,98 @@ td{
     padding: 12px;
     text-align: center;
     border: 2px solid #002776;
+    padding: 12px;
+}
+
+
+td:hover{
+    background-color: #f0e6a4;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#agenda table td{
+    font-family: bison;
+    font-size: 16px;
+}
+#formulario {
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border: 4px solid #002776;
+    padding: 20px;
+    border-radius: 8px;
+}
+#formulario input{
+    margin-bottom: 8px;
+    font-family: bison;
+    font-size: 16px;
+    color: #002776;
+    align-items: center;
+}
+footer{
+    background-color: #0c2a57;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    font-family: bison;
+    color: white;
+    font-size: 23px;
+    margin: 0;
+}
+footer img{
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+    vertical-align: middle;
+    box-shadow: #181d52 0px 4px 8px;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#convocados p{
+    font-family: eastman;
+    font-size: 16px;
+    background-color: #0c2a57;
+    color: #e7e09f;
+    margin-top: 10px;
+}
+#agenda p{
+    font-family: eastman;
+    font-size: 16px;
+    background-color: #226b3b;
+    color: #e7e09f;
+    margin-top: 10px;
+    padding: 4.5px;
+}
+#agenda h2{
+    color: #418645;
+}
+#agenda table{
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 4px solid #3e8643;
+    border-collapse: collapse;
+}
+
+#agenda table th{
+    background-color: #3e8643;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #3e8643;
+    padding: 12px;
+}
+
+#agenda table td{
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #3e8643;
     padding: 12px;
 }
 
