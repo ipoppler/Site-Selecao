@@ -4,15 +4,15 @@ body{
 }
 @font-face {
     font-family: 'eastman';
-    src: url('../Fontes/eastman/EastmanRomanTrial-Bold.otf') format('truetype');
+    src: url('./Fontes/eastman/EastmanRomanTrial-Bold.otf') format('truetype');
 }
 @font-face {
     font-family: 'bison';
-    src: url('../Fontes/bison_2/Bison-Bold(PersonalUse).ttf') format('truetype');
+    src: url('./Fontes/bison_2/Bison-Bold(PersonalUse).ttf') format('truetype');
 }
 @font-face {
     font-family: 'maximum';
-    src: url('../Fontes/maximum_voltage/Maximum Voltage.otf') format('truetype');
+    src: url('./Fontes/maximum_voltage/Maximum Voltage.otf') format('truetype');
 }
 p{
     font-size: 18px;
