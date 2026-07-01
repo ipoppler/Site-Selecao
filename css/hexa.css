@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'alte';
-    src: url('./Fontes/alte_haas_grotesk/AlteHaasGroteskBold.ttf') format('truetype');
+    src: url('/Fontes/alte_haas_grotesk/AlteHaasGroteskBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'true';
-    src: url('./Fontes/academy/AcademyFilled3D.ttf') format('truetype');
+    src: url('/Fontes/academy/AcademyFilled3D.ttf') format('truetype');
 }
 @font-face {
     font-family: 'truetf';
-    src: url('./Fontes/academy/Academy.ttf') format('truetype');
+    src: url('/Fontes/academy/Academy.ttf') format('truetype');
 }
 @font-face {
     font-family: 'varsity';
-    src: url('./Fontes/varsity_team/VarsityTeam-Bold.otf') format('truetype');
+    src: url('/Fontes/varsity_team/VarsityTeam-Bold.otf') format('truetype');
 }
 body{
     background-color: #d3fcd3;
