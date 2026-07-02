@@ -152,7 +152,7 @@
         <p>Fique por dentro dos próximos desafios do Brasil rumo ao hexa!</p>
         <table>
             <thead>
-                <tr>
+                <tr onclick="ganhou()">
                     <th>Data</th>
                     <th>Adversário</th>
                     <th>Local</th>
@@ -160,21 +160,21 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr  onclick="ganhou()">
                     <td>13/06/2026</td>
-                    <td id="marroco" onclick="ganhou()">Marrocos</td>
+                    <td>Marrocos</td>
                     <td>Metlife Stadium</td>
                     <td>19:00</td>
                 </tr>
-                <tr>
+                <tr onclick="ganhou()">
                     <td>19/06/2026</td>
                     <td id="haiti">Haiti</td>
                     <td>Lincoln Financial Field</td>
                     <td>21:30</td>
                 </tr>
-                <tr>
+                <tr onclick="ganhou()">
                     <td>24/06/2026</td>
-                    <td id="escócia">Escócia</td>
+                    <td>Escócia</td>
                     <td>Hard Rock Stadium</td>
                     <td>19:00</td>
                 </tr>
@@ -199,6 +199,7 @@
         a href="https://www.facebook.com/CBF/?locale=pt_BR"
         >
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
