@@ -6,6 +6,11 @@ function ganhou(){
         spread: 120
     });
 }
-function obrigada(){
-    alert("💖 Obrigada por responder o site!");
+
+let mensagem = document.getElementById("mensagem");
+
+function enviar(event) {
+    event.preventDefault();
+
+    mensagem.textContent = "⤷ ゛Obrigado pela mensagem! Rumo ao hexa! 💪ˎˊ˗";
 }

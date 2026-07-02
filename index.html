@@ -183,12 +183,16 @@
     </section>
     <section id="formulario">
         <h2>Mande uma mensagem de apoio!</h2>
+        <form id="form" onsubmit="enviar(event)">
         <div class="input">
         <input type="text" placeholder="Seu nome">
         <input type="email" placeholder="Seu e-mail">
         <input type="text" placeholder="Sua mensagem">
-        <button type="submit">Enviar</button>
+        <button type="submit" id="enviou">Enviar</button>
         </div>
+        </form>
+
+        <p id="mensagem"></p>
     </section>
     <footer>
         <p>© 2026 Portal da Seleção. Todos os direitos reservados.</p>
