@@ -44,7 +44,7 @@ p{
 h2{
     font-family: varsity;
 }
-header > p:first-of-type{
+header p:first-of-type{
     font-size: 20px;
     margin-bottom: 20px;
     font-family: alte;
@@ -233,7 +233,7 @@ header p:last-of-type{
 }
 
 .a2002 img{
-    width: 350px;
+    width: 450px;
     height: auto;
 }
 
@@ -314,7 +314,7 @@ footer{
     margin: 30px 0;
     position: relative;
 }
-#Passado\ Brasileiro > p{
+#Passado-Brasileiro p{
     max-width: 1000px;
     margin: 30px auto;
 
@@ -330,7 +330,7 @@ footer{
 
     box-shadow: 0 4px 15px rgba(0,0,0,.1);
 }
-#Passado\ Brasileiro > p{
+#Passado-Brasileiro > p{
     max-width: 1000px;
     margin: 30px auto;
 
@@ -338,4 +338,65 @@ footer{
     column-gap: 40px;
 
     line-height: 1.8;
+}
+.seta{
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+    margin: 30px 0;
+    transition: .3s;
+    user-select: none;
+}
+
+.seta:hover{
+    transform: translateY(8px) scale(1.1);
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.a2026{
+    display: none;
+    align-items: flex-start;
+    gap: 25px;
+
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.1);
+
+    animation: aparecer .5s;
+}
+
+.a2026 img{
+    width: 430px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+.a6{
+    flex: 1;
+}
+
+.a6 h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #009739;
+}
+
+.a6 p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
 }

@@ -14,3 +14,13 @@ function enviar(event) {
 
     mensagem.textContent = "⤷ ゛Obrigado pela mensagem! Rumo ao hexa! 💪ˎˊ˗";
 }
+
+function mostrar2026() {
+    let secao = document.getElementById("a2026");
+
+    if (secao.style.display === "flex") {
+        secao.style.display = "none";
+    } else {
+        secao.style.display = "flex";
+    }
+}
